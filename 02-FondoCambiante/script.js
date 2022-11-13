@@ -1,8 +1,7 @@
 $(document).ready(function(){
     $("#color").val("#ffffff")
-    $("#boton").click(function(){
+    $("#color").change(function () { 
         var color = $("#color").val();
-        console.log(color);
         document.body.style.backgroundColor = color;
     });
-  });
+});
