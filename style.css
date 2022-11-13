@@ -1,0 +1,46 @@
+body{
+    background-color: #f5d482;
+}
+h1{
+    text-align: center;
+}
+#lista{
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+ol {
+    background: #ff8b33;
+    padding: 20px;
+    
+  }
+ol li {
+    background: #f5d482;
+    margin: 5px;
+    border: solid;
+}
+a{
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+/* visited link */
+a:visited {
+color: red;
+}
+
+/* mouse over link */
+a:hover {
+color: rgb(255, 105, 130);
+}
+
+/* selected link */
+a:active {
+color: rgb(255, 98, 0);
+}
